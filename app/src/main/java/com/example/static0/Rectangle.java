@@ -1,0 +1,17 @@
+package com.example.static0;
+
+public class Rectangle extends Shape {
+    private int width;
+    private int height;
+
+    public Rectangle(int x, int y, int width, int height) {
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+    }
+
+    public int area() {
+        return width * height;
+    }
+}
